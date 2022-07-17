@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    box-sizing: border-box;
+    font-size: 0.9375rem;
+    text-align: center;
+}
+.hero-text
+{
+    padding: 5%;
+}
+
+img
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.container
+{
+  background-color:  hsl(0, 0%, 100%);
+    padding: 1.5%;
+    padding-top: 1%;
+    margin: 11% auto;
+    max-width: 20%;
+    border-radius:5% ;
+}
+h1,
+p
+{
+    font-family: "Outfit",sans-serif;
+}
+p
+{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+h1{
+    color: hsl(218, 44%, 22%);
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-bottom: 5%;
+}
+@media screen and (max-width:375px) 
+{
+ .container
+ {
+    background-color:  hsl(0, 0%, 100%);
+    padding: 5%;
+    border-radius:5% ;
+    margin: 30% auto;
+    max-width: 80%;
+ }
+}
